@@ -25,4 +25,8 @@ public class Piloto {
             return new Piloto(idPiloto,Apellido,Nombre,DNI);
         }
     }
+
+    public String getDNI() {
+        return this.dni;
+    }
 }
